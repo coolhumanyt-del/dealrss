@@ -2,8 +2,8 @@ name: Update RSS Feed
 
 on:
   schedule:
-    - cron: '0 * * * *' # ਹਰ ਘੰਟੇ ਆਪਣੇ-ਆਪ ਚੱਲੇਗਾ
-  workflow_dispatch:      # ਤੁਸੀਂ ਜਦੋਂ ਚਾਹੋ ਹੱਥੀਂ ਵੀ ਰਨ ਕਰ ਸਕਦੇ ਹੋ
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   build:
